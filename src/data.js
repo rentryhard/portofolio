@@ -18,10 +18,10 @@ import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 import Tools12 from "/assets/tools/kotlin.png";
-import Tools13 from "/assets/tools/firebase.png";
+import Tools13 from "/assets/tools/alightmotion.png";
 import Tools14 from "/assets/tools/html.png";
 import Tools15 from "/assets/tools/css.png";
-import Tools16 from "/assets/tools/ts.png";
+import Tools16 from "/assets/tools/ae.png";
 import Tools17 from "/assets/tools/php.png";
 import Tools18 from "/assets/tools/vite.png";
 import Tools19 from "/assets/tools/mysql.png";
@@ -115,8 +115,8 @@ export const listTools = [
   {
     id: 13,
     gambar: Tools13,
-    nama: "Firebase",
-    ket: "Framework",
+    nama: "AlightMotion",
+    ket: "Design App",
     dad: "1300",
   },
   {
@@ -136,8 +136,8 @@ export const listTools = [
   {
     id: 16,
     gambar: Tools16,
-    nama: "TypeScript",
-    ket: "Language",
+    nama: "After Effect",
+    ket: "Design Apps",
     dad: "1600",
   },
   {
@@ -174,12 +174,12 @@ export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
+    title: "Personal Web Portofolio",
     subtitle: "A mobile application powered by Artificial Intelligence...",
     fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "",
     dad: "100",
   },
   {
@@ -190,7 +190,7 @@ export const listProyek = [
     fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "",
     dad: "200",
   },
   {
