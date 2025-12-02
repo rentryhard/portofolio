@@ -76,7 +76,7 @@ function App() {
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
               <img src="./assets/abumid.png" className="w-10 rounded-md" />
-              <q>Avoid or just undertake it</q>
+              <q>Think intelligently not critically</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
               <ShinyText text="Hi I'm Muhammad Abu Rizky" disabled={false} speed={3} className='custom-class' />
@@ -91,7 +91,7 @@ function App() {
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
                 href="./assets/CV.pdf" 
-                download="Faris_Edrik_Prayoga_CV.pdf" 
+                download="" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
                 <ShinyText text="Download CV" disabled={false} speed={3} className="custom-class" />
@@ -129,7 +129,7 @@ function App() {
                 </h2>
 
                 <BlurText
-                  text="I’m Muhammad Abu Rizky, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
+                  text="Hi! I’m Muhammad Abu Rizky, a 16-year-old student at Amaliyah School with a strong passion for technology and web development. I’m currently learning how to build websites from both the frontend and backend because my dream is to become a Fullstack Developer who can create useful and creative digital experiences. I love exploring new tools, improving my coding skills, and turning ideas into real projects that people can enjoy. Outside of programming, I like designing, playing games, and doing anything that helps me expand my creativity and teamwork abilities. I believe that dedication, curiosity, and consistent effort will guide me toward achieving my goals in the tech world."
                   delay={150}
                   animateBy="words"
                   direction="top"
