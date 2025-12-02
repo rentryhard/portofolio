@@ -76,7 +76,7 @@ function App() {
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
               <img src="./assets/abumid.png" className="w-10 rounded-md" />
-              <q>Think intelligently not critically</q>
+              <q>Certified gooners.</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
               <ShinyText text="Hi I'm Muhammad Abu Rizky" disabled={false} speed={3} className='custom-class' />

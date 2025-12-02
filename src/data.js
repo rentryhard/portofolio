@@ -17,7 +17,7 @@ import Tools8 from "/assets/tools/github.png";
 import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/kotlin.png";
+import Tools12 from "/assets/tools/laravel.png";
 import Tools13 from "/assets/tools/alightmotion.png";
 import Tools14 from "/assets/tools/html.png";
 import Tools15 from "/assets/tools/css.png";
@@ -108,8 +108,8 @@ export const listTools = [
   {
     id: 12,
     gambar: Tools12,
-    nama: "Kotlin",
-    ket: "Language",
+    nama: "Laravel",
+    ket: "Framework",
     dad: "1200",
   },
   {
