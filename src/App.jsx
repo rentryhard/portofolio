@@ -244,7 +244,7 @@ function App() {
           <div className="flex flex-col md:flex-row gap-8">
             {/* Chat Room di kiri */}
             <div className="flex-1 bg-zinc-800 p-6 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
-              {/*<ChatRoom />*/}
+              <ChatRoom />
             </div>
 
             {/* Contact Form di kanan */}
