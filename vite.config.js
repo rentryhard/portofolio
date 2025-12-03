@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/portofolio/",
   plugins: [react(), tailwindcss()],
   build: {
-    chunkSizeWarningLimit: 1600,
+    chunkSizeWarningLimit: 1500,
   }
 })
