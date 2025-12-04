@@ -236,14 +236,14 @@ function App() {
             data-aos-delay="300"
             data-aos-once="true"
           >
-            Get in touch with me or chat in real-time
+            Get in touch with me
           </p>
 
           {/* Container dua kolom */}
           <div className="flex flex-col md:flex-row gap-8">
             {/* Chat Room di kiri */}
             <div className="flex-1 bg-zinc-800 p-6 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
-              <ChatRoom />
+              {/*<ChatRoom />*/}
             </div>
 
             {/* Contact Form di kanan */}
