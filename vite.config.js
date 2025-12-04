@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/",
   plugins: [react(), tailwindcss()],
   build: {
-    chunkSizeWarningLimit: 1600,
+    chunkSizeWarningLimit: 1500,
   }
 })

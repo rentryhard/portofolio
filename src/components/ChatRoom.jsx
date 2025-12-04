@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { auth, loginWithGoogle, logout, db } from "../firebase";
 import { onAuthStateChanged } from "firebase/auth";
 import {
-  ref,
-  push,
-  onValue,
+  collection,
+  addDoc,
+  onSnapshot,
   serverTimestamp
-} from "firebase/database";
+} from "firebase/firestore";
 
 export default function ChatRoom() {
   const [user, setUser] = useState(null);
