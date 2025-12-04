@@ -21,7 +21,7 @@ export default function ChatRoom() {
 
   // Ambil pesan real-time
   useEffect(() => {
-    const q = query(collection(db, "messages"), orderBy("createdAt","desc"),limit(20));
+    const q = query(collection(db, "messages"), orderBy("createdAt","desc"),limit(10));
     const unsub = onSnapshot(q, (snapshot) => {
       setMessages(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
     });
